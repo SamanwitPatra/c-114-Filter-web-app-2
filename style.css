@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+canvas {
+    animation-name: filter;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes filter{
+    from {box-shadow: 1px, 1px, 38px rgb(221, 67, 10);}
+    to {box-shadow: 1px, 1px, 38px yellow;}
+}
